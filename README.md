@@ -1,7 +1,20 @@
-Simple messaging broker using a MySQL database as a storage
+Simple messaging broker using a MySQL database as a storage.
+
+Uses PHP PDO to connect to database.
 
 Example of use
 ===============
+
+Database configuration file
+===========================
+```
+"myq" : {
+    "db_host" : "db host",
+    "db_name" : "db name",
+    "db_user" : "db user",
+    "db_pass" : "db password"
+}
+```
 
 Setting up
 ==========
