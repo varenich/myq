@@ -5,7 +5,7 @@ Uses PHP PDO to connect to database.
 Example of use
 ===============
 
-Database configuration file
+Database configuration JSON file
 ===========================
 ```
 "myq" : {
