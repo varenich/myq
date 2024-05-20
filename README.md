@@ -5,14 +5,15 @@ Example of use
 
 Setting up
 ==========
-
+```
 use myq\v4\Broker;
 $configPath = '/path/to/your/config.json';
 $br = new Broker($configPath);
+```
 
 Reading event
 =============
-
+```
 try {
     // 'order' is a subscriber name
     // 'NEW_ORDER_EVENT' is an event name
@@ -30,9 +31,10 @@ try {
 catch (\Exception $e) {
     // Do something with exception
 }
-
+```
 Publishing event
 ================
+```
 use myq\v4\NEW_ORDER_EVENT_EXAMPLE\Event;
 $ev = new Event;
 
@@ -51,3 +53,4 @@ try {
 catch (Exception $e) {
     // Do something with exception
 }
+```
